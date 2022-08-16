@@ -56,4 +56,4 @@ assert ordered_comparison(list1, list2) == [16, 23, 421]
 
 
 with pytest.raises(Exception):
-    print(ordered_comparison(list1, list3))
+    ordered_comparison(list1, list3)
